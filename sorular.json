@@ -1,7 +1,7 @@
 // GitHub'dan soru çekme fonksiyonu
 async function loadQuestionsFromGitHub() {
     // GitHub raw JSON URL'nizi buraya ekleyin
-    const GITHUB_URL = "https://raw.githubusercontent.com/KULLANICI/REPO/main/anayasa_sorulari.json";
+    const GITHUB_URL = "https://github.com/keysturkiye/anayasa-sorular/edit/main/sorular.json";
     
     const modal = document.getElementById('githubModal');
     const progressBar = document.getElementById('githubProgress');
